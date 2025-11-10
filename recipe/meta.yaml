@@ -47,6 +47,7 @@ requirements:
     - r-gridtext
     - r-jsonlite
     - r-latex2exp
+    - r-lubridate
     - r-ncdf4
     - r-patchwork
     - r-pracma
@@ -69,6 +70,7 @@ requirements:
     - r-gridtext
     - r-jsonlite
     - r-latex2exp
+    - r-lubridate
     - r-ncdf4
     - r-patchwork
     - r-pracma
