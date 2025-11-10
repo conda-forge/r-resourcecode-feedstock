@@ -62,9 +62,13 @@ requirements:
     - r-curl
     - r-geosphere
     - r-ggplot2
+    - r-gridtext
     - r-jsonlite
+    - r-latex2exp
     - r-ncdf4
+    - r-patchwork
     - r-pracma
+    - r-resourcecodedata
     - r-rlang
     - r-sf
     - r-tibble
