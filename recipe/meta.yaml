@@ -46,7 +46,6 @@ requirements:
     - r-ggplot2
     - r-gridtext
     - r-jsonlite
-    - r-latex2exp
     - r-lubridate
     - r-ncdf4
     - r-patchwork
@@ -69,7 +68,6 @@ requirements:
     - r-ggplot2
     - r-gridtext
     - r-jsonlite
-    - r-latex2exp
     - r-lubridate
     - r-ncdf4
     - r-patchwork
