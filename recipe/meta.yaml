@@ -59,7 +59,6 @@ requirements:
     - liblapack
     - libgomp      # [linux]
     - llvm-openmp  # [osx]
-    - libgfortran  # [win]
   run:
     - r-base
     - r-rcpp
