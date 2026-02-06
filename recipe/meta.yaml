@@ -1,4 +1,4 @@
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/resourcecode_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/resourcecode/resourcecode_{{ version }}.tar.gz
-  sha256: ac43c995d611ec5abece1c0f663d09b1ed1af8591aa72869cf906c90902b408a
+  sha256: 8680bdb2e45f61e4acdf48f4b9e6a7fe78450632bc2085c2b199014286e6fc37
 
 build:
   number: 0
@@ -88,8 +88,8 @@ about:
   home: https://resourcecode-project.github.io/r-resourcecode/
   dev_url: https://github.com/Resourcecode-project/r-resourcecode
   license: GPL-3.0-or-later
-  summary: Utility functions to download data from the 'RESOURCECODE' hindcast database of sea-states, time series of sea-state parameters and time series of 1D and 2D wave spectra.  See <https://resourcecode.ifremer.fr> for more details about the available data.  Also provides facilities to plot and analyse downloaded data,
-    such as computing the sea-state parameters from both the 1D and 2D surface elevation variance spectral density.
+  summary: Utility functions to download data from the 'RESOURCECODE' hindcast database of sea-states, time series of sea-state parameters and time series of 1D and 2D wave spectra.  See <https://resourcecode.ifremer.fr> for more details about the available data.  Also provides facilities to plot and analyse downloaded
+    data, such as computing the sea-state parameters from both the 1D and 2D surface elevation variance spectral density.
   license_family: GPL3
   license_file:
     - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
