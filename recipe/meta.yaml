@@ -41,11 +41,10 @@ requirements:
     - r-rcpp
     - r-rcpparmadillo
     - r-abind
-    - r-curl
     - r-geosphere
     - r-ggplot2
     - r-gridtext
-    - r-jsonlite
+    - r-httr2
     - r-lubridate
     - r-ncdf4
     - r-patchwork
@@ -62,12 +61,12 @@ requirements:
   run:
     - r-base
     - r-rcpp
+    - r-rcpparmadillo
     - r-abind
-    - r-curl
     - r-geosphere
     - r-ggplot2
     - r-gridtext
-    - r-jsonlite
+    - r-httr2
     - r-lubridate
     - r-ncdf4
     - r-patchwork
